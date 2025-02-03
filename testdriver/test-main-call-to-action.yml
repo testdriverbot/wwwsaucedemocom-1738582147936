@@ -1,0 +1,13 @@
+version: 4.1.58
+session: 67a0aa83bd730579c19cdce2
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Click on the "Login" button.
+    commands:
+      - command: hover-text
+        text: Login
+        description: login button on the webpage
+        action: click
