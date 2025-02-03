@@ -1,0 +1,13 @@
+version: 4.1.58
+session: 67a0aa97bd730579c19cdcf1
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Scroll down to the footer.
+    commands:
+      - command: scroll-until-text
+        text: Copyright
+        direction: down
+        method: keyboard
