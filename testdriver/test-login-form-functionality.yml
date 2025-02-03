@@ -1,0 +1,13 @@
+version: 4.1.58
+session: 67a0aa86bd730579c19cdce5
+steps:
+  - prompt: Focus the browser window.
+    commands: []
+  - prompt: 'Enter "standard  # Use the content of the file from the environment'
+    commands:
+      - command: hover-text
+        text: Username
+        description: username input field label
+        action: click
+      - command: type
+        text: standard
